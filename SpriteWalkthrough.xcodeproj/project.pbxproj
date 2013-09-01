@@ -23,6 +23,7 @@
 		066F9F8F17D25DB100958322 /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 066F9F8E17D25DB100958322 /* SpriteWalkthroughTests.m */; };
 		066F9F9917D25DD900958322 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 066F9F9817D25DD900958322 /* SpriteKit.framework */; };
 		066F9F9C17D2A40900958322 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 066F9F9B17D2A40900958322 /* HelloScene.m */; };
+		066F9F9F17D2D04500958322 /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 066F9F9E17D2D04500958322 /* SpaceshipScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		066F9F9817D25DD900958322 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		066F9F9A17D2A40900958322 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
 		066F9F9B17D2A40900958322 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
+		066F9F9D17D2D04500958322 /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		066F9F9E17D2D04500958322 /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				066F9F7917D25DB100958322 /* SpriteViewController.m */,
 				066F9F9A17D2A40900958322 /* HelloScene.h */,
 				066F9F9B17D2A40900958322 /* HelloScene.m */,
+				066F9F9D17D2D04500958322 /* SpaceshipScene.h */,
+				066F9F9E17D2D04500958322 /* SpaceshipScene.m */,
 				066F9F7B17D25DB100958322 /* Images.xcassets */,
 				066F9F6A17D25DB100958322 /* Supporting Files */,
 			);
@@ -261,6 +266,7 @@
 			files = (
 				066F9F7017D25DB100958322 /* main.m in Sources */,
 				066F9F9C17D2A40900958322 /* HelloScene.m in Sources */,
+				066F9F9F17D2D04500958322 /* SpaceshipScene.m in Sources */,
 				066F9F7417D25DB100958322 /* SpriteAppDelegate.m in Sources */,
 				066F9F7A17D25DB100958322 /* SpriteViewController.m in Sources */,
 			);
